@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); // font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap'); // font-family: 'Prata', serif;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); // font-family: 'Playfair Display', serif;
+
+:root {
+    --f-default: 'Roboto', sans-serif;
+    --f-prata: 'Prata', serif;
+    --f-play: 'Playfair Display', serif;
+
+    --color-white: #fff;
+    --color-black: #1B1A17;
+
+    --color-white--light: #FDFDFB;
+
+    --color-grey--light: #555248;
+    --color-grey--dark: rgba(27, 26, 29, .82);
+
+    --color-brown: #444240;
+
+    --fs-h2: 32px;
+    --fs-default: 14px;
+    --fs-small: 12px;
+    --fs-big: 16px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+section {
+    width: 100%;
+}
+
+h1, h2, h3, p, a, span, button, input {
+    font-family: var(--f-default);
+    font-size: var(--fs-default);
+    color: var(--color-black);
+    margin: 0;
+    text-decoration: none;
+}
+h1, h2 {
+    font-family: var(--f-play);
+}
+h2 {
+    font-size: var(--fs-h2);
+}
+
+hr {
+    height: 0;
+    border: 1px solid #8B8371;
+}
+
+.button {
+    cursor: pointer;
+    padding: 26px 38px;
+    transition: .4s;
+    display: inline-block;
+    font-weight: 500;
+    color: var(--color-white);
+    font-size: 12px;
+
+    &:active {
+        transform: scale(.9);
+    }
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
